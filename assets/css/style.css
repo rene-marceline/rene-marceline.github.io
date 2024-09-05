@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid #551c60; 
   border-radius: 50% !important;
 }
 
@@ -84,8 +84,8 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #fff;
-  color: #00796b;
+  background:none;
+  color: #fff;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -95,10 +95,10 @@
   -webkit-border-radius: 5px;
 }
 
-/* .readme:hover{
-  color: white;
-  background-color: #00796b;
-} */
+.readme:hover{
+  color: #00796b;
+  background-color: #fff;
+}
 
 .contactme {
   position: relative;
@@ -124,7 +124,7 @@
 /* body-color */
 
 body {
-  color: #333;
+  color: black;
   font-size: 18px;
 }
 
@@ -139,8 +139,8 @@ body {
   color: #009688;
 } */
 
-a {
-  color: #004d40;
+a { /*contact links color */
+  color: #551c60; 
 }
 
 /* main blockqoute */
@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #c9a7ff repeat;
   position: relative;
 }
 
@@ -552,14 +552,18 @@ small {
   color: #008073 !important;
 }
 
+.purple-text {
+  color: #551c60 !important;
+}
+
 /* .teal-text {
   color: #0b5e86 !important;
 } */
 
 /* .teal */
 
-.teal {
-  background-color: #008073 !important;
+.purple {
+  background-color: #551c60 !important;
 }
 
 /* .teal {
